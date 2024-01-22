@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_blocks_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6"
+      ],
+      "default": "h2",
+      "required": true
+    },
+    "headingStyle": {
+      "type": "enumeration",
+      "enum": [
+        "tangerine",
+        "charcoal",
+        "atlantic",
+        "lime",
+        "white",
+        "black"
+      ],
+      "default": "white",
+      "required": true
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "headingAlign": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left",
+        "right"
+      ],
+      "default": "center",
+      "required": true
+    }
+  }
+}

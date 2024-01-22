@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_seo_meta_seo_metas",
+  "info": {
+    "displayName": "SEO Meta",
+    "icon": "earth"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "required": false
+    },
+    "metaDescription": {
+      "type": "text"
+    }
+  }
+}

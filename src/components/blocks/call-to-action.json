@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_blocks_call_to_actions",
+  "info": {
+    "displayName": "Call To Action",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "buttonStyle": {
+      "type": "enumeration",
+      "enum": [
+        "tangerine",
+        "charcoal",
+        "atlantic",
+        "lime",
+        "white",
+        "black"
+      ],
+      "default": "tangerine",
+      "required": true
+    }
+  }
+}

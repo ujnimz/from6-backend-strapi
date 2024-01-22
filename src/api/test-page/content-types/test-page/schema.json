@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "test_pages",
+  "info": {
+    "singularName": "test-page",
+    "pluralName": "test-pages",
+    "displayName": "Test Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Block": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.call-to-action",
+        "blocks.clientele",
+        "blocks.heading"
+      ]
+    }
+  }
+}
