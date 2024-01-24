@@ -1,4 +1,4 @@
-module.exports = [
+module.exports = ({ env }) => [
   "strapi::logger",
   "strapi::errors",
   "strapi::cors",
@@ -20,15 +20,13 @@ module.exports = [
             "'self'",
             "data:",
             "blob:",
-            "dl.airtable.com",
-            "from6-media-s3.s3.me-south-1.amazonaws.com",
+            env("CF_PUBLIC_ACCESS_URL").replace(/^https?:\/\//, ""),
           ],
           "media-src": [
             "'self'",
             "data:",
             "blob:",
-            "dl.airtable.com",
-            "from6-media-s3.s3.me-south-1.amazonaws.com",
+            env("CF_PUBLIC_ACCESS_URL").replace(/^https?:\/\//, ""),
           ],
           upgradeInsecureRequests: null,
         },
