@@ -2,12 +2,12 @@
   "collectionName": "components_blocks_clienteles",
   "info": {
     "displayName": "Clientele",
-    "icon": "briefcase",
+    "icon": "chalkboard-teacher",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Item": {
+    "clientele": {
       "displayName": "Clientele Item",
       "type": "component",
       "repeatable": true,

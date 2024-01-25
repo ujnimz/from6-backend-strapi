@@ -1,13 +1,14 @@
 {
-  "collectionName": "components_blocks_headings",
+  "collectionName": "components_typography_headings",
   "info": {
     "displayName": "Heading",
-    "icon": "cube"
+    "icon": "h-square",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "tag": {
@@ -37,12 +38,12 @@
       "required": true
     },
     "bgImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "headingAlign": {
       "type": "enumeration",

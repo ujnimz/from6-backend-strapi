@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_works_grids",
+  "info": {
+    "displayName": "Works Grid",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work"
+    },
+    "work_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::work-category.work-category"
+    }
+  }
+}

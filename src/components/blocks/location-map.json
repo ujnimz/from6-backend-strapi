@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_location_maps",
+  "info": {
+    "displayName": "Location Map",
+    "icon": "map-marked",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "placeId": {
+      "type": "string",
+      "required": true
+    },
+    "mapHeight": {
+      "type": "integer",
+      "required": true,
+      "default": 600
+    },
+    "zoomLevel": {
+      "type": "integer",
+      "required": true,
+      "default": 15
+    },
+    "apiKey": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

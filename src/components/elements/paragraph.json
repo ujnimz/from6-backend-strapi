@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_typography_paragraphs",
+  "info": {
+    "displayName": "Paragraph",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left",
+        "right"
+      ],
+      "default": "center",
+      "required": true
+    },
+    "textType": {
+      "type": "enumeration",
+      "enum": [
+        "paragraph",
+        "bulletList",
+        "numberedList"
+      ],
+      "default": "paragraph",
+      "required": true
+    }
+  }
+}

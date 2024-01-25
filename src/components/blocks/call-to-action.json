@@ -2,7 +2,8 @@
   "collectionName": "components_blocks_call_to_actions",
   "info": {
     "displayName": "Call To Action",
-    "icon": "cursor"
+    "icon": "bullhorn",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -17,11 +18,12 @@
       "type": "string"
     },
     "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "buttonStyle": {
       "type": "enumeration",

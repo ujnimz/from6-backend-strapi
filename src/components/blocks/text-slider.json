@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_blocks_text_sliders",
+  "info": {
+    "displayName": "Text Slider",
+    "icon": "dice-d20",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sliderTexts": {
+      "displayName": "Slider Text",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.slider-text"
+    },
+    "mp4Video": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "ogvVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "webmVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "fallbackImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
