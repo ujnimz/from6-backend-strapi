@@ -1,3 +1,9 @@
+# Strapi
+.strapi/
+.strapi
+build/
+build
+
 # Logs
 logs
 *.log
@@ -83,11 +89,7 @@ web_modules/
 .cache
 .parcel-cache
 
-# Strapi build output
-.strapi/
-.strapi
-build/
-build
+
 
 # Next.js build output
 .next
@@ -132,3 +134,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
