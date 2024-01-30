@@ -27,7 +27,6 @@
     "strapi-provider-cloudflare-r2": "^0.2.4",
     "styled-components": "5.3.3"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=19.x.x",
     "npm": ">=6.0.0"
