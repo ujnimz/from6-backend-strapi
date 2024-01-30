@@ -1,8 +1,13 @@
 # Strapi
-.strapi/
 .strapi
-build/
 build
+license.txt
+exports
+*.cache
+.strapi-updater.json
+
+# Mac
+.DS_Store
 
 # Logs
 logs
