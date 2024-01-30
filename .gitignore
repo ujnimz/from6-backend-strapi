@@ -83,6 +83,12 @@ web_modules/
 .cache
 .parcel-cache
 
+# Strapi build output
+.strapi/
+.strapi
+build/
+build
+
 # Next.js build output
 .next
 out
@@ -120,6 +126,7 @@ dist
 .vscode-test
 
 # yarn v2
+.yarn
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
